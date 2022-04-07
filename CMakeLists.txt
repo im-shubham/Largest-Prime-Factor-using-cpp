@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.20)
+project(untitled)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(executable1 main.cpp )
+add_executable(executable2  BinarySearchProblems.cpp )
+add_executable(executable3   Problems2.cpp )
+add_executable(executable4    Sqrt.cpp )
+add_executable(executable5     cmake-build-debug/competitive.cpp )
+add_executable(executable6      cws.cpp )
+add_executable(executable7      cws2.cpp )
+add_executable(executable8      cmake-build-debug/cws3.cpp )
+add_executable(executable9      cws4.cpp )
+add_executable(executable10      cws5.cpp cws5.h )
+add_executable(executable11      cws6.cpp)
+add_executable(executable12      cws7.cpp)
